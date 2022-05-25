@@ -1,0 +1,64 @@
+//get colors from https://codepen.io/rodriguesmarcos/pen/wvyMoO
+:root{
+   //colors
+   --font-size: 16px;
+   --animation-speed: 1;
+   --app-orange: #FC6E51;
+   --app-orange-dark: #E9573F;
+   --app-red: #ED5565;
+   --app-red-dark: #DA4453;
+   --app-green: #A0D468;
+   --app-green-dark: #8CC152;
+   --app-mint: #48CFAD;
+   --app-mint-dark: #37BC9B;
+   --app-yellow: #FFCE54;
+   --app-yellow-dark: #F6BB42;
+   --app-purple: #AC92EC;
+   --app-purple-dark: #967ADC;
+   --app-gray: #DCDCDC;
+   --app-gray-dark: #AAB2BD;
+   --app-lightGray: #F5F7FA;
+   --app-lightGray-dark:#E6E9ED;
+   --app-darkGray:  #656D78;
+   --app-darkGray-dark: #434A54;
+   --app-black: #000;
+   --app-white: #fff;
+   --app-blue: #5D9CEC;
+   --app-blue-dark: #4A89DC;
+   --app-lightBlue: #4FC1E9;
+   --app-lightBlue-dark: #3BAFDA;
+
+   //fonts
+   --font-dam-kalhi: DAM_Kalhi;
+   --font-faruma: faruma;
+   --font-faseyha: faseyha;
+   --font-dhivehi: dhivehi;
+
+   //font-size
+   --font-size-s: 0.8rem;
+   --font-size-m: 1rem;
+   --font-size-l: 1.2rem;
+   --font-size-xl: 1.5rem;
+   --font-size-2xl: 2rem;
+   --font-size-3xl: 3rem;
+   --font-size-4xl: 4rem;
+   --font-size-5xl: 5rem;
+
+   //font-weight
+   --font-weight-light: 300;
+   --font-weight-normal: 400;
+   --font-weight-bold: 700;
+
+   //screen sizes
+   // Extra small screen / phone
+   --screen-xs: 480px;
+   // Small screen / tablet
+   --screen-sm: 768px;
+   // Medium screen / desktop
+   --screen-md: 992px;
+   // Large screen / wide desktop
+   --screen-lg: 1200px;
+   // Extra large screen / full hd
+   --screen-xl: 1920px;
+
+}
