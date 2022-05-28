@@ -107,3 +107,100 @@ body, html {
    }
 
 }
+
+.container{
+   /* Add empty space above the container (20% of the view height) */
+   margin-top: 20vh;
+   //display flex for card
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1rem;
+
+   .card {
+      max-width: var(--card-width-md);
+      /* Change background color */
+      background-color: white;
+      /* Add border */
+      border: 1px solid #bacdd8;
+      /* Add space between the border and the content */
+      padding: 8px;
+      border-radius: 12px;
+      /* Add shadow */
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      /* Add transition effect */
+      transition: all 0.3s;
+      /* Add animation */
+      animation: fadeIn 0.3s;
+      animation-fill-mode: forwards;
+      animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      animation-delay: 0.2s;
+      animation-duration: 0.3s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-play-state: running;
+      animation-name: fadeIn;
+
+      /* Add shadow to the card */
+      &:hover {
+         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      img {
+         width: 100%;
+         border-radius: 12px;
+         height: 214px;
+         object-fit: cover;
+      }
+
+      /* Style div elements that have class equal to tag */
+      .tag {
+         padding: 4px 8px;
+         border: 1px solid #e5eaed;
+
+         border-radius: 50px;
+         font-size: 12px;
+         font-weight: 600;
+         color: #788697;
+      }
+
+      /* Style div elements that have class equal to name */
+      .name {
+         font-size: 36px;
+         font-weight: 800;
+         margin-top: 16px;
+      }
+
+      /* Style p element */
+      p {
+         font-size: 14px;
+         color: #7f8c9b;
+         line-height: 150%;
+      }
+
+      /* Style button element */
+      .button {
+         border: none;
+         padding: 12px 24px;
+         border-radius: 50px;
+         font-weight: 600;
+         color: var(--app-white);
+         background-color: var(--app-blue-dark);
+
+         /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+         margin: 5px auto;
+         display: block;
+
+         /* Button is a clickable element, therefore it should have a pointer cursor */
+         cursor: pointer;
+         text-align: center;
+      }
+
+      .card__details {
+         /* Add space around the details */
+         padding: 16px 8px 8px 8px;
+      }
+   }
+
+}
