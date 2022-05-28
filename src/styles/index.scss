@@ -81,8 +81,6 @@ body, html {
    @return calc($duration * var(--animation-speed));
 }
 
-$colors: red, orange, yellow, green;
-
 .test{
    font-family: var(--font-faruma);
    display: flex;
@@ -93,19 +91,19 @@ $colors: red, orange, yellow, green;
    align-items: center;
    justify-content: center;
    gap: 1rem;
-   color: var(--app-white);
    background-color: var(--app-black);
-   font-size: var(--font-size-5xl);
+   font-size: var(--font-size-10xl);
 
    div{
+      -webkit-text-stroke: 1px var(--app-blue);
+      color: transparent;
       -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(0,0,0,.2));
       // border-bottom: 1px solid var(--app-lightGray);
       text-transform: uppercase;
-      animation: waviy 1s infinite;
-      &::first-letter{
-         color: var(--app-green);
-      }
-
+      // animation: waviy 1s infinite;
+      // &::first-letter{
+      //    color: var(--app-blue);
+      // }
    }
 
 }
